@@ -11,7 +11,7 @@ const Navbar = () => {
                {" "}
                <span className="bg-primary rounded-md text-white px-1 -mr-1.5">
                   N
-               </span>{" "}
+               </span>
                EFA
             </h2>
             <img src={star} className="absolute top-1 -right-3 h-4" alt="" />
