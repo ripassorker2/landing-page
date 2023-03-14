@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import PrimaryButton from "../button/PrimaryButton";
-import SecondaryBottom from "../button/SecondaryBottom";
 import star from "../../assets/particles/Star 2.png";
 
 const Navbar = () => {
@@ -22,7 +21,7 @@ const Navbar = () => {
                      alt=""
                   />
                </div>
-               <ul class="flex items-center hidden space-x-8 lg:flex">
+               <ul class=" items-center hidden space-x-8 lg:flex">
                   <li className="mr-4 text-[18px] font-[500] text-black hover:text-secondary duration-500 ">
                      <a href="#category">Category</a>
                   </li>
