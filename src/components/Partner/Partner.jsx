@@ -6,7 +6,7 @@ import img4 from "../../assets/partners/image 5.png";
 
 const Partner = () => {
    return (
-      <div className="lg:mt-28 md:mt20 mt-12 bg-slate-100 p-7 rounded-md">
+      <div className="lg:mt-28 md:mt20 mt-12 bg-slate-100 p-7 hidden md:block  rounded-md">
          <div className="text-center">
             <h3 className="text-[25px] font-bold text-black ">
                Trusted Partners Worldwide
@@ -16,7 +16,7 @@ const Partner = () => {
                globe
             </p>
          </div>
-         <div className="md:grid md:grid-cols-4 justify-center hidden  items-center">
+         <div className="md:grid md:grid-cols-4 justify-center  items-center">
             <img
                src={img1}
                className="lg:max-h-[150px] md:max-h-[100] "

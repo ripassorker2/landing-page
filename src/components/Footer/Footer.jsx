@@ -6,8 +6,8 @@ const Footer = () => {
          <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
             <div className="lg:w-1/3">
                <div className="relative">
-                  <h2 className="font-extrabold text-[32px] ">
-                     <span className="bg-primary rounded-md text-white px-1">
+                  <h2 className="font-extrabold lg:text-[32px] md:text-[28px] text-[22px] ">
+                     <span className="bg-primary rounded-md text-white px-1 ">
                         N
                      </span>
                      EFA

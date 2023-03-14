@@ -1,7 +1,6 @@
 import React from "react";
 import img from "../../assets/hero image/Group 35.png";
 import PrimaryButton from "../button/PrimaryButton";
-import SecondaryBottom from "../button/SecondaryBottom";
 import star from "../../assets/particles/Star 2.png";
 import blue from "../../assets/particles/Ellipse 8.png";
 import purple from "../../assets/particles/Ellipse 10.png";
@@ -12,7 +11,7 @@ import { AiOutlineDown } from "react-icons/ai";
 const BuyAndTrade = () => {
    return (
       <div className="md:flex justify-between items-center lg:mt-28 md:mt20 mt-12">
-         <div className="relative md:mr-12 ">
+         <div className="relative lg:mr-12 md:w-[60%] ">
             <img src={img} alt="" />
             <img
                src={blue}
@@ -27,7 +26,7 @@ const BuyAndTrade = () => {
          </div>
          <div className=" relative md:w-[60%] ">
             <div className="md:max-w-[90%]">
-               <p className="font-bold text-[36px] pb-2 ">
+               <p className="font-bold lg:text-[36px] md:text-[28px] text-[22px] pb-2 lg:leading-10 md:leading-8">
                   Buy & trade on the
                   <span className="text-primary"> original crypto</span>{" "}
                   exchange.
@@ -39,25 +38,28 @@ const BuyAndTrade = () => {
                </p>
                <div className="mt-3">
                   <div className="grid grid-cols-5 ">
-                     <div className="border border-secondary rounded-lg px-4 py-3 flex justify-between items-center col-span-3">
-                        <p className="border-r pr-4 text-primary font-semibold">
+                     <div className="border border-secondary rounded-lg lg:px-4 px-2 lg:py-3 py-1.5 flex justify-between items-center col-span-3">
+                        <p className="border-r lg:pr-4 pr-2 text-primary lg:font-semibold">
                            Amount{" "}
                         </p>
                         <input
                            type="text"
-                           className=" focus:outline-none rounded-lg  w-full ml-3 px-4 py-2 "
+                           className=" focus:outline-none rounded-lg  w-full ml-3 lg:px-4 px-2 lg:py-3 py-1.5 "
                            placeholder="Enter amount..."
                         />
-                        <p className="text-gray">34533</p>
+                        <p className="text-gray hidden lg:block">34533</p>
                      </div>
-                     <div className="col-span-2 inline-flex justify-center items-center border border-secondary rounded-lg px-4 py-3 ml-3">
+                     <div className="col-span-2 inline-flex justify-center items-center border border-secondary rounded-lg lg:px-4 px-2 lg:py-3 py-1.5 ml-3">
                         USD <img src={flag} className="mx-3" alt="" />{" "}
                         <AiOutlineDown size={21} />
                      </div>
                   </div>
                   <div className="grid grid-cols-5 mt-4">
-                     <div className="border border-secondary rounded-lg px-4 py-3 flex justify-between items-center col-span-3">
-                        <p className="border-r pr-4 text-primary font-semibold">
+                     <div className="border border-secondary rounded-lg lg:px-4 px-2 lg:py-3 py-1.5 flex justify-between items-center col-span-3">
+                        <p
+                           className="border-r lg:pr-4 pr-2 text-primary lg
+                     :font-semibold"
+                        >
                            Amount{" "}
                         </p>
                         <input
@@ -65,9 +67,9 @@ const BuyAndTrade = () => {
                            className=" focus:outline-none rounded-lg  w-full ml-3 px-4 py-2 "
                            placeholder="Enter amount..."
                         />
-                        <p className="text-gray">0.44533</p>
+                        <p className="text-gray hidden lg:block">0.44533</p>
                      </div>
-                     <div className="col-span-2 inline-flex justify-center items-center border border-secondary rounded-lg px-4 py-3 ml-3">
+                     <div className="col-span-2 inline-flex justify-center items-center border border-secondary rounded-lg lg:px-4 px-2 lg:py-3 py-1.5  ml-3">
                         USD <img src={coin} className="mx-3" alt="" />{" "}
                         <AiOutlineDown size={21} />
                      </div>
@@ -77,7 +79,7 @@ const BuyAndTrade = () => {
             </div>
             <img
                src={star}
-               className="max-h-8 absolute -bottom-12 right-48"
+               className="max-h-8 hidden md:block absolute -bottom-12 right-48"
                alt=""
             />
          </div>

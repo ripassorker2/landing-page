@@ -4,16 +4,49 @@ import star from "../../assets/particles/Star 2.png";
 import blue from "../../assets/particles/Ellipse 8.png";
 import yelow from "../../assets/particles/Ellipse 9.png";
 import purple from "../../assets/particles/Ellipse 10.png";
+import start from "../../assets/particles/Star 2.png";
 
 const FAQ = () => {
    return (
       <div className="md:flex justify-between items-center lg:mt-28 md:mt20 mt-12">
          <div className=" relative md:w-[60%] ">
             <div className="md:max-w-[90%]">
-               <p className="font-bold text-[36px] pb-4 ">
+               <p className="font-bold lg:text-[36px] md:text-[28px] text-[22px] pb-2 lg:leading-10 md:leading-8 ">
                   Frequently asked
                   <span className="text-primary"> questions</span>
                </p>
+               <div className="sm:hidden block">
+                  <div>
+                     <img
+                        src={star}
+                        className="max-h-8 absolute -bottom-3 right-48"
+                        alt=""
+                     />
+                     <img
+                        src={blue}
+                        className="max-h-8 absolute -top-6 left-48"
+                        alt=""
+                     />
+                  </div>
+                  <div className="relative">
+                     <img src={img} alt="" />
+                     <img
+                        src={yelow}
+                        className="max-h-8 absolute top-2 right-[65%]"
+                        alt=""
+                     />
+                     <img
+                        src={purple}
+                        className="max-h-8 absolute top-6 right-[6%]"
+                        alt=""
+                     />
+                     <img
+                        src={star}
+                        className="max-h-8 absolute bottom-20 left-[6%]"
+                        alt=""
+                     />
+                  </div>
+               </div>
                <details open="" className="border  p-2 rounded-md mb-5">
                   <summary className="py-2 text-black font-semibold outline-none cursor-pointer ">
                      Why should I choose NEFA?
@@ -79,30 +112,38 @@ const FAQ = () => {
                   </div>
                </details>
             </div>
-
-            <img
-               src={star}
-               className="max-h-8 absolute -bottom-3 right-48"
-               alt=""
-            />
-            <img
-               src={blue}
-               className="max-h-8 absolute -top-6 left-48"
-               alt=""
-            />
          </div>
-         <div className="relative">
-            <img src={img} alt="" />
-            <img
-               src={yelow}
-               className="max-h-8 absolute top-24 right-[65%]"
-               alt=""
-            />
-            <img
-               src={purple}
-               className="max-h-8 absolute top-60 right-[6%]"
-               alt=""
-            />
+         <div className="hidden md:block">
+            <div>
+               <img
+                  src={star}
+                  className="max-h-8 absolute -bottom-3 right-48"
+                  alt=""
+               />
+               <img
+                  src={blue}
+                  className="max-h-8 absolute -top-6 left-48"
+                  alt=""
+               />
+            </div>
+            <div className="relative">
+               <img src={img} alt="" />
+               <img
+                  src={yelow}
+                  className="max-h-8 absolute top-2 right-[65%]"
+                  alt=""
+               />
+               <img
+                  src={purple}
+                  className="max-h-8 absolute top-60 right-[6%]"
+                  alt=""
+               />
+               <img
+                  src={star}
+                  className="max-h-8 absolute bottom-60 left-[6%]"
+                  alt=""
+               />
+            </div>
          </div>
       </div>
    );

@@ -14,7 +14,7 @@ const Bannar = () => {
             <img src={img} alt="" />
             <img
                src={yelow}
-               className="max-h-8 absolute top-32 right-[65%]"
+               className="max-h-8 absolute lg:top-32 md:top-12 top-2 right-[65%]"
                alt=""
             />
             <img
@@ -26,7 +26,7 @@ const Bannar = () => {
          <div className=" relative ">
             <div>
                <p className="text-xs text-primary">SIGN UP TODAY</p>
-               <div className="lg:text-[55px] md:text-[36px] text-[34px] font-bold md:leading-[60px] leading-[40px]">
+               <div className="lg:text-[55px] md:text-[34px] text-[26px] font-bold lg:leading-[60px] md:leading-[50px] leading-[35px]">
                   <p> The World’s</p>{" "}
                   <p className="text-blue">Fastest Growing</p>
                   <p>Crypto Web App</p>
@@ -36,18 +36,24 @@ const Bannar = () => {
                   using bank transfers or your credit/debit card.
                </p>
             </div>
-            <div className="flex mt-3">
-               <PrimaryButton text={"Get Started"} classes={"mr-5"} />
-               <SecondaryBottom text={"Get Our App"} />
+            <div className="flex  md:flex-row flex-col md:mt-3">
+               <PrimaryButton
+                  text={"Get Started"}
+                  classes={"md:mr-5 md:mt-0 mt-3"}
+               />
+               <SecondaryBottom
+                  text={"Get Our App"}
+                  classes={" md:mt-0 mt-3"}
+               />
             </div>
             <img
                src={star}
-               className="max-h-8 absolute -bottom-3 right-48"
+               className="max-h-8 absolute lg:-bottom-3 bottom-8 lg:right-48 -right-3"
                alt=""
             />
             <img
                src={blue}
-               className="max-h-8 absolute  top-0 right-20"
+               className="max-h-8 absolute  lg:top-0 -top-10 right-20"
                alt=""
             />
          </div>

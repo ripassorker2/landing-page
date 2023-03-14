@@ -24,7 +24,7 @@ const Intruducing = () => {
          </div>
          <div className=" relative md:w-[60%] ">
             <div className="">
-               <p className="font-bold text-[36px] pb-2 ">
+               <p className="font-bold lg:text-[36px] md:text-[28px] text-[22px] pb-2 lg:leading-10 md:leading-8 ">
                   Introducing the
                   <span className="text-primary"> NEFA </span> <br /> Credit
                   Card
@@ -53,11 +53,11 @@ const Intruducing = () => {
                </p>
             </div>
             <div className="flex mt-3">
-               <SecondaryBottom text={"Join With Us"} />
+               <SecondaryBottom text={"Join With Us"} classes={"w-full"} />
             </div>
             <img
                src={star}
-               className="max-h-8 absolute -bottom-3 right-48"
+               className="max-h-8 absolute md:-bottom-9 md:right-48 right-1 -bottom-10"
                alt=""
             />
          </div>

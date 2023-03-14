@@ -1,6 +1,5 @@
 import React from "react";
 import { BsChevronRight } from "react-icons/bs";
-import image1 from "../../assets/flags/Vector 4 (1).png";
 import image2 from "../../assets/flags/Vector (2).png";
 import image3 from "../../assets/flags/Vector (3).png";
 import image4 from "../../assets/flags/Vector 4.png";
@@ -19,7 +18,6 @@ import name5 from "../../assets/name/image 1 (3).png";
 import name6 from "../../assets/name/image 1 (4).png";
 import name7 from "../../assets/name/image 1 (5).png";
 import name8 from "../../assets/name/image 1 (6).png";
-import name12 from "../../assets/name/image 1 (7).png";
 import name9 from "../../assets/name/image 1 (8).png";
 import name10 from "../../assets/name/image 1 (9).png";
 import name11 from "../../assets/name/image 1.png";

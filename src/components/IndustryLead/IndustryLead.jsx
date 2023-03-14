@@ -23,9 +23,9 @@ const IndustryLead = () => {
                alt=""
             />
          </div>
-         <div className=" relative md:w-[60%] ">
+         <div className=" relative lg:w-[60%] md:w-[80%] ">
             <div className="md:max-w-[90%]">
-               <p className="font-bold text-[36px] pb-2 ">
+               <p className="font-bold lg:text-[36px] md:text-[28px] text-[22px] pb-2 lg:leading-10 md:leading-8 ">
                   Industry-leading
                   <span className="text-primary"> security </span> from day one
                </p>
@@ -57,9 +57,15 @@ const IndustryLead = () => {
                   complete these exams.
                </p>
             </div>
-            <div className="flex mt-3">
-               <PrimaryButton text={"Get Started"} classes={"mr-5"} />
-               <SecondaryBottom text={"Get Our App"} />
+            <div className="flex  md:flex-row flex-col md:mt-3">
+               <PrimaryButton
+                  text={"Get Started"}
+                  classes={"md:mr-5 md:mt-0 mt-3"}
+               />
+               <SecondaryBottom
+                  text={"Get Our App"}
+                  classes={" md:mt-0 mt-3"}
+               />
             </div>
             <img
                src={star}
