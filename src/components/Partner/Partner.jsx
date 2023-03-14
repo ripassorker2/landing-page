@@ -6,9 +6,9 @@ import img4 from "../../assets/partners/image 5.png";
 
 const Partner = () => {
    return (
-      <div className="mt-11 bg-slate-100 p-4 rounded-md">
+      <div className="mt-10 bg-slate-100 p-4 rounded-md">
          <div className="text-center">
-            <h3 className="text-[25px] text-black ">
+            <h3 className="text-[25px] font-bold text-black ">
                Trusted Partners Worldwide
             </h3>
             <p className="text-gray pt-1 ">

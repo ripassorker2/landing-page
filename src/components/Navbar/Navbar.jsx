@@ -9,9 +9,7 @@ const Navbar = () => {
          <div className="relative">
             <h2 className="font-extrabold text-[32px] ">
                {" "}
-               <span className="bg-primary rounded-md text-white px-1 -mr-1.5">
-                  N
-               </span>
+               <span className="bg-primary rounded-md text-white px-1 ">N</span>
                EFA
             </h2>
             <img src={star} className="absolute top-1 -right-3 h-4" alt="" />

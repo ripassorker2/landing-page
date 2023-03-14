@@ -9,7 +9,7 @@ import { MdOutlineRoundaboutRight } from "react-icons/md";
 
 const Intruducing = () => {
    return (
-      <div className="md:flex justify-between items-center mt-8">
+      <div className="md:flex justify-between items-center mt-10">
          <div className="relative md:w-[70%] ">
             <img src={img} alt="" />
             <img
@@ -36,20 +36,20 @@ const Intruducing = () => {
                   available at application.
                </p>
                <p className="text-[16px]  py-1 pt-2">
-                  <MdOutlineRoundaboutRight className="bg-primary text-white p-0.5 rounded-full inline-block" />{" "}
+                  <MdOutlineRoundaboutRight className="bg-primary mr-2 text-white p-0.5 rounded-full inline-block" />{" "}
                   Up to 3% back on purchases
                </p>
 
                <p className="text-[16px]  py-1">
-                  <MdOutlineRoundaboutRight className="bg-primary text-white p-0.5 rounded-full inline-block" />{" "}
+                  <MdOutlineRoundaboutRight className="bg-primary mr-2 text-white p-0.5 rounded-full inline-block" />{" "}
                   Earn rewards in bitcoin or any crypto on NEFA
                </p>
                <p className="text-[16px]  py-1">
-                  <MdOutlineRoundaboutRight className="bg-primary text-white p-0.5 rounded-full inline-block" />{" "}
+                  <MdOutlineRoundaboutRight className="bg-primary mr-2 text-white p-0.5 rounded-full inline-block" />{" "}
                   No annual fee
                </p>
                <p className="text-[16px]  py-1">
-                  <MdOutlineRoundaboutRight className="bg-primary text-white p-0.5 rounded-full inline-block" />{" "}
+                  <MdOutlineRoundaboutRight className="bg-primary mr-2 text-white p-0.5 rounded-full inline-block" />{" "}
                   A Range of Powerful Apis
                </p>
             </div>

@@ -16,7 +16,7 @@ const AdvanceTools = () => {
                   Advanced <span className="text-primary">Trading</span> Tools
                </p>
                <p className="text-[18px] font-semibold py-2">
-                  <MdOutlineSubdirectoryArrowRight className="bg-primary text-white p-0.5 rounded-full inline-block" />
+                  <MdOutlineSubdirectoryArrowRight className="bg-primary mr-2 text-white p-0.5 rounded-full inline-block" />
                   Professional Access, Non-stop Availability
                </p>
                <p>
@@ -25,7 +25,7 @@ const AdvanceTools = () => {
                   order execution and constant uptime.
                </p>
                <p className="text-[18px] font-semibold py-2">
-                  <MdOutlineSubdirectoryArrowRight className="bg-primary text-white p-0.5 rounded-full inline-block" />{" "}
+                  <MdOutlineSubdirectoryArrowRight className="bg-primary mr-2 text-white p-0.5 rounded-full inline-block" />{" "}
                   A Range of Powerful Apis
                </p>
                <p>
@@ -34,7 +34,7 @@ const AdvanceTools = () => {
                   to our WebSocket for real-time data streaming.
                </p>
                <p className="text-[18px] font-semibold py-2">
-                  <MdOutlineSubdirectoryArrowRight className="bg-primary text-white p-0.5 rounded-full inline-block" />{" "}
+                  <MdOutlineSubdirectoryArrowRight className="bg-primary mr-2 text-white p-0.5 rounded-full inline-block" />{" "}
                   Customer Support
                </p>
                <p>
