@@ -10,8 +10,11 @@ import { AiOutlineDown } from "react-icons/ai";
 
 const BuyAndTrade = () => {
    return (
-      <div className="md:flex justify-between items-center lg:mt-28 md:mt20 mt-12">
-         <div className="relative lg:mr-12 md:w-[60%] ">
+      <div
+         className="md:flex justify-between items-center lg:mt-28 md:mt20 mt-12"
+         id="purchase"
+      >
+         <div className="relative lg:mr-12 md:w-[60%] " data-aos="fade-right">
             <img src={img} alt="" />
             <img
                src={blue}
@@ -24,7 +27,7 @@ const BuyAndTrade = () => {
                alt=""
             />
          </div>
-         <div className=" relative md:w-[60%] ">
+         <div className=" relative md:w-[60%] " data-aos="fade-left">
             <div className="md:max-w-[90%]">
                <p className="font-bold lg:text-[36px] md:text-[28px] text-[22px] pb-2 lg:leading-10 md:leading-8">
                   Buy & trade on the

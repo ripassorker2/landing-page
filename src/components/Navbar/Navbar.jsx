@@ -24,16 +24,19 @@ const Navbar = () => {
                </div>
                <ul class="flex items-center hidden space-x-8 lg:flex">
                   <li className="mr-4 text-[18px] font-[500] text-black hover:text-secondary duration-500 ">
-                     Portfolio
+                     <a href="#category">Category</a>
                   </li>
                   <li className="mr-4 text-[18px] font-[500] text-black hover:text-secondary duration-500 ">
-                     Products
+                     <a href="#purchase">Purchase</a>
                   </li>
                   <li className="mr-4 text-[18px] font-[500] text-black hover:text-secondary duration-500 ">
-                     Exchanges
+                     <a href="#Partner">Partner</a>
                   </li>
                   <li className="mr-4 text-[18px] font-[500] text-black hover:text-secondary duration-500 ">
-                     Crytocurrency
+                     <a href="#Tools">Tools</a>
+                  </li>
+                  <li className="mr-4 text-[18px] font-[500] text-black hover:text-secondary duration-500 ">
+                     <a href="#faq">FAQ</a>
                   </li>
                   <li>
                      <PrimaryButton text={"Login"} />

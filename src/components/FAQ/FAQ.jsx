@@ -8,8 +8,11 @@ import start from "../../assets/particles/Star 2.png";
 
 const FAQ = () => {
    return (
-      <div className="md:flex justify-between items-center lg:mt-28 md:mt20 mt-12">
-         <div className=" relative md:w-[60%] ">
+      <div
+         className="md:flex justify-between items-center lg:mt-28 md:mt20 mt-12"
+         id="faq"
+      >
+         <div className=" relative md:w-[60%] " data-aos="fade-right">
             <div className="md:max-w-[90%]">
                <p className="font-bold lg:text-[36px] md:text-[28px] text-[22px] pb-2 lg:leading-10 md:leading-8 ">
                   Frequently asked
@@ -113,7 +116,7 @@ const FAQ = () => {
                </details>
             </div>
          </div>
-         <div className="hidden md:block">
+         <div className="hidden md:block" data-aos="fade-left">
             <div>
                <img
                   src={star}

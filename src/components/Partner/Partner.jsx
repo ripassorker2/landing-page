@@ -6,7 +6,11 @@ import img4 from "../../assets/partners/image 5.png";
 
 const Partner = () => {
    return (
-      <div className="lg:mt-28 md:mt20 mt-12 bg-slate-100 p-7 hidden md:block  rounded-md">
+      <div
+         className="lg:mt-28 md:mt20 mt-12 bg-slate-100 p-7 hidden md:block  rounded-md"
+         data-aos="fade-up"
+         id="Partner"
+      >
          <div className="text-center">
             <h3 className="text-[25px] font-bold text-black ">
                Trusted Partners Worldwide
