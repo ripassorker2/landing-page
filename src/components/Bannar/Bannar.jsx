@@ -9,11 +9,24 @@ import purple from "../../assets/particles/Ellipse 10.png";
 
 const Bannar = () => {
    return (
-      <div className="md:flex justify-between items-center">
+      <div className="md:flex justify-between items-center md:flex-row-reverse">
+         <div className="relative">
+            <img src={img} alt="" />
+            <img
+               src={yelow}
+               className="max-h-8 absolute top-32 right-[65%]"
+               alt=""
+            />
+            <img
+               src={purple}
+               className="max-h-8 absolute top-60 right-[6%]"
+               alt=""
+            />
+         </div>
          <div className=" relative ">
             <div>
                <p className="text-xs text-primary">SIGN UP TODAY</p>
-               <div className="text-[55px] font-bold leading-[60px]">
+               <div className="lg:text-[55px] md:text-[36px] text-[34px] font-bold md:leading-[60px] leading-[40px]">
                   <p> The World’s</p>{" "}
                   <p className="text-blue">Fastest Growing</p>
                   <p>Crypto Web App</p>
@@ -35,19 +48,6 @@ const Bannar = () => {
             <img
                src={blue}
                className="max-h-8 absolute  top-0 right-20"
-               alt=""
-            />
-         </div>
-         <div className="relative">
-            <img src={img} alt="" />
-            <img
-               src={yelow}
-               className="max-h-8 absolute top-32 right-[65%]"
-               alt=""
-            />
-            <img
-               src={purple}
-               className="max-h-8 absolute top-60 right-[6%]"
                alt=""
             />
          </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import img from "../../assets/hero image/NEFA_-_Cryptocurrency_Web_App__Community____Figma-removebg-preview.png";
-import PrimaryButton from "../button/PrimaryButton";
 import SecondaryBottom from "../button/SecondaryBottom";
 import star from "../../assets/particles/Star 2.png";
 import blue from "../../assets/particles/Ellipse 8.png";
@@ -9,7 +8,7 @@ import { MdOutlineRoundaboutRight } from "react-icons/md";
 
 const Intruducing = () => {
    return (
-      <div className="md:flex justify-between items-center mt-10">
+      <div className="md:flex justify-between items-center lg:mt-28 md:mt20 mt-12">
          <div className="relative md:w-[70%] ">
             <img src={img} alt="" />
             <img

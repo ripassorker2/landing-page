@@ -9,7 +9,7 @@ import { MdOutlineRoundaboutRight } from "react-icons/md";
 
 const IndustryLead = () => {
    return (
-      <div className="md:flex justify-between items-center mt-10">
+      <div className="md:flex justify-between items-center lg:mt-28 md:mt20 mt-12">
          <div className="relative md:mr-12 ">
             <img src={img} alt="" />
             <img

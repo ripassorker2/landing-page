@@ -2,18 +2,18 @@ import React from "react";
 import img1 from "../../assets/get startted/06 1.png";
 import img2 from "../../assets/get startted/07 1.png";
 import img3 from "../../assets/get startted/15 2.png";
-// import moduleName from '../../assets/get startted/06 1.png';
+import line from "../../assets/get startted/Line 14.png";
 
 const GetStarted = () => {
    return (
-      <div className="mt-10 bg-slate-100 p-4 rounded-md">
+      <div className="lg:mt-28 md:mt20 mt-12 bg-slate-100 p-7 rounded-md  relative">
          <div className="text-center">
             <h3 className="text-[25px] font-bold text-black ">
                Get started in just a few minutes
             </h3>
          </div>
          <div className="flex justify-center items-center">
-            <div className="grid lg:grid-cols-3 gap-8">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
                <div className="rounded-md flex flex-col justify-center items-center">
                   <img src={img3} className="h-40 w-48 " alt="" />
                   <div className="text-center  md:w-[80%]">
@@ -47,6 +47,16 @@ const GetStarted = () => {
                   </div>
                </div>
             </div>
+            <img
+               className="absolute  hidden lg:inline-block left-[60%] top-[45%]"
+               src={line}
+               alt=""
+            />
+            <img
+               className="absolute hidden lg:inline-block right-[60%] top-[45%]"
+               src={line}
+               alt=""
+            />
          </div>
       </div>
    );

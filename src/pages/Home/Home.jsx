@@ -1,6 +1,7 @@
 import React from "react";
 import AdvanceTools from "../../components/AdvanceTools/AdvanceTools";
 import Bannar from "../../components/Bannar/Bannar";
+import FAQ from "../../components/FAQ/FAQ";
 import Footer from "../../components/Footer/Footer";
 import GetStarted from "../../components/GetStarted/GetStarted";
 import IndustryLead from "../../components/IndustryLead/IndustryLead";
@@ -18,6 +19,7 @@ const Home = () => {
          <AdvanceTools />
          <IndustryLead />
          <GetStarted />
+         <FAQ />
          <Footer />
       </div>
    );

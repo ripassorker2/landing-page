@@ -9,7 +9,7 @@ import { MdOutlineSubdirectoryArrowRight } from "react-icons/md";
 
 const AdvanceTools = () => {
    return (
-      <div className="md:flex justify-between items-center">
+      <div className="md:flex justify-between items-center lg:mt-28 md:mt20 mt-12">
          <div className=" relative md:w-[60%] ">
             <div className="md:max-w-[90%]">
                <p className="font-bold text-[36px] pb-2 ">
