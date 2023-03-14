@@ -13,7 +13,7 @@ const AdvanceTools = () => {
          className="sm:flex  justify-between items-center lg:mt-28 md:mt20 mt-12"
          id="Tools"
       >
-         <div className="relative  mb-7 block sm:hidden" data-aos="fade-right">
+         <div className="relative  mb-7 block sm:hidden">
             <img src={img} className="!w-[700px]" alt="" />
             <img
                src={yelow}
@@ -26,10 +26,7 @@ const AdvanceTools = () => {
                alt=""
             />
          </div>
-         <div
-            className=" relative lg:w-[60%] md:w-[70%] "
-            data-aos="fade-right"
-         >
+         <div className=" relative lg:w-[60%] md:w-[70%] ">
             <div className="lg:max-w-[90%]">
                <p className="font-bold lg:text-[36px] md:text-[28px] text-[22px] pb-2 lg:leading-10 md:leading-8">
                   Advanced <span className="text-primary">Trading</span> Tools
@@ -77,7 +74,7 @@ const AdvanceTools = () => {
                alt=""
             />
          </div>
-         <div className="relative  hidden sm:block" data-aos="fade-left">
+         <div className="relative  hidden sm:block">
             <img src={img} className="!w-[700px]" alt="" />
             <img
                src={yelow}

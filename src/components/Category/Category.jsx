@@ -24,7 +24,7 @@ import name11 from "../../assets/name/image 1.png";
 
 const Category = () => {
    return (
-      <div className="lg:mt-28 md:mt20 mt-12" data-aos="fade-up" id="category">
+      <div className="lg:mt-28 md:mt20 mt-12" id="category">
          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 ">
             <div className=" p-3">
                <div>

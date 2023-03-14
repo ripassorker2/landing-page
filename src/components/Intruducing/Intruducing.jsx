@@ -9,7 +9,7 @@ import { MdOutlineRoundaboutRight } from "react-icons/md";
 const Intruducing = () => {
    return (
       <div className="md:flex justify-between items-center lg:mt-28 md:mt20 mt-12">
-         <div className="relative md:w-[70%] " data-aos="fade-down-right">
+         <div className="relative md:w-[70%] ">
             <img src={img} alt="" />
             <img
                src={blue}
@@ -22,7 +22,7 @@ const Intruducing = () => {
                alt=""
             />
          </div>
-         <div className=" relative md:w-[60%] " data-aos="fade-down-left">
+         <div className=" relative md:w-[60%] ">
             <div className="">
                <p className="font-bold lg:text-[36px] md:text-[28px] text-[22px] pb-2 lg:leading-10 md:leading-8 ">
                   Introducing the

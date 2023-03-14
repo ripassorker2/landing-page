@@ -6,10 +6,7 @@ import line from "../../assets/get startted/Line 14.png";
 
 const GetStarted = () => {
    return (
-      <div
-         className="lg:mt-28 md:mt20 mt-12 bg-slate-100 p-7 rounded-md  relative"
-         data-aos="fade-up"
-      >
+      <div className="lg:mt-28 md:mt20 mt-12 bg-slate-100 p-7 rounded-md  relative">
          <div className="text-center">
             <h3 className="text-[25px] font-bold text-black ">
                Get started in just a few minutes
