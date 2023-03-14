@@ -2,6 +2,7 @@ import React from "react";
 import AdvanceTools from "../../components/AdvanceTools/AdvanceTools";
 import Bannar from "../../components/Bannar/Bannar";
 import BuyAndTrade from "../../components/BuyAndTrade/BuyAndTrade";
+import Category from "../../components/Category/Category";
 import FAQ from "../../components/FAQ/FAQ";
 import Footer from "../../components/Footer/Footer";
 import GetStarted from "../../components/GetStarted/GetStarted";
@@ -15,6 +16,7 @@ const Home = () => {
       <div>
          <Navbar />
          <Bannar />
+         <Category />
          <BuyAndTrade />
          <Partner />
          <Intruducing />
